@@ -1,12 +1,12 @@
 # cd /etc/sysconfig/network-scripts
 # cp ifcfg-eth0  ifcfg-eth0:1 #具体文件
 # cat > ifcfg-eth0:1 <<EOF
-# TYPE=Ethernet
-# BOOTPROTO=static
-# NAME=eth0:1
-# DEVICE=eth0:1
-# ONBOOT=yes
-# IPADDR=*.*.*.* #具体IP
-# PREFIX=*
-# EOF
+  TYPE=Ethernet
+  BOOTPROTO=static
+  NAME=eth0:1
+  DEVICE=eth0:1
+  ONBOOT=yes
+  IPADDR=*.*.*.* #具体IP
+  PREFIX=*
+  EOF
 # ifup  ifcfg-eth0:1
