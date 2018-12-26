@@ -1,0 +1,1 @@
+netstat -ano>C:\Users\Shark\Desktop\%TIME:~0,2%%TIME:~3,2%%TIME:~6,2%.txt
