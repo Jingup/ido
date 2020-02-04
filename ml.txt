@@ -1,0 +1,3 @@
+﻿
+# shopt -s extglob
+# rm -rf !(common|default)
